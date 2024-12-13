@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/Classwork/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.1/css/all.css"
+    />
+    <link rel="shortcut icon" href="https://files.catbox.moe/vmy59b.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+       
+      <div id="cover">
+        <img id="cover-logo" src="/Classwork/Sylveon.gif">
+        <h3 id="cover-header">Sylveon Says:</h3>
+        <blockquote id="password-q">A password is required to access this site!</blockquote>
+        <input type="password" id="password-input"  placeholder="Type password..."/> <button id="password-submit">Submit</button>
+        <br>
+        <p id="password-submitted-text"></p>
+    </div>
+
+      <div id="navbar">
+        <div id="nav-left">
+          <i class="fa-solid fa-user-secret" id="header-icon"></i> Secret Service Panel (v1.1.0)
+        </div>
+        <div id="nav-right"><i id="customize-opener" class="fa-solid fa-broom"></i></div>
+      </div>
+      <div id="screen">
+        <div id="iframe-screen">
+          <div id="iframe-navbar">
+            <div id="iframe-nav-left">
+              <input
+                type="text"
+                placeholder="https://example.com (include https://)"
+                id="iframe-src-input"
+              />
+              <button class="iframe-nav-btn" id="load-page"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Load</button>
+              <button class="iframe-nav-btn" id="load-ab"> <i class="fa-solid fa-shield-halved"></i> about:blank</button>
+              <button class="iframe-nav-btn" id="load-blob"> <i class="fa-solid fa-shield-quartered"></i> Blob Cloak</button>
+              
+            </div>
+            <div id="iframe-nav-right">
+              <span id="zoom-amount">100%</span>
+              <i id="zoom-out" class="fa-solid fa-minus iframe-nav-icon"></i>
+              <i id="zoom-in" class="fa-solid fa-plus iframe-nav-icon"></i>
+              <i id="refresh" class="fa-solid fa-refresh iframe-nav-icon"></i>
+              <i id="close" class="fa-solid fa-xmark iframe-nav-icon"></i>
+            </div>
+          </div>
+          <div id="sidebar-and-iframe">
+            <div id="sidebar">
+              <button class="sidebar-button" id="sidebar-button-1">Panic Button!</button>
+              <hr class="sidebar-hr">
+              <button class="sidebar-button" id="sidebar-button-2">YouTube Bypass</button>
+              <hr class="sidebar-hr">
+              <button class="sidebar-button" id="sidebar-button-3">Classroom 20x</button>
+              <hr class="sidebar-hr">
+              <button class="sidebar-button" id="sidebar-button-4">Rammerhead</button>
+              <hr class="sidebar-hr">
+              <button class="sidebar-button" id="sidebar-button-5">Doge Unblocker</button>
+              <hr class="sidebar-hr">
+              <button class="sidebar-button" id="sidebar-button-6">Interstellar Proxy</button>
+            </div>
+            <div id="iframe-box">
+
+              <div id="customize-menu">
+                <h3 id="customize-header">Customize</h3>
+                <hr class="customize-hr">
+                <span class="customize-span">TextColor <input id="customize-input1" class="customize-input" type="color" value="#ffffff"></span>
+                <span class="customize-span">BorderColor <input id="customize-input2" class="customize-input" type="color" value="#ffffff"></span>
+                <span class="customize-span">BackgroundColor <input id="customize-input3" class="customize-input" type="color" value="#000000"></span>
+                <hr class="customize-hr">
+                <button id="customize-save">Save Colors</button>
+              </div>
+
+              <iframe src="" frameborder="0" id="iframe">iframe</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/Classwork/js/navbar-buttons.js"></script>
+    <script src="/Classwork/js/sidebar-buttons.js"></script>
+    <script src="/Classwork/js/site-launcher.js"></script>
+    <script src="/Classwork/js/customize.js"></script>
+    <script src="/Classwork/js/password.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
